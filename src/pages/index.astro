@@ -1,4 +1,5 @@
 ---
+
 ---
 
 <html lang="en">
@@ -6,10 +7,192 @@
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="description" content="Building your own Basketball Scorecard">
+		<meta name="author" content="Helitha Rupasinghe">
+		<meta name="keywords" content="Basketball, Scorecard, NBA, Game7">
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Basketball Scorecard</title>
+		<style>
+			*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  background: #1B244A;
+  height: 100vh;
+}
+
+.container{
+  max-width: 575px;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h3{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: white;
+}
+
+.content{
+  display: flex;
+  Justify-content: space-between;
+  align-items: center;
+  margin-top: 21px;
+}
+
+.content > div {
+width: 155px;
+height: 120px;
+
+background: #080001;
+border-radius: 5px;
+}
+
+.score{
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+}
+
+.buttons-container{ 
+  display: flex;
+  Justify-content: space-between;
+  align-items: center;
+}
+
+.align-left,
+.align-right {
+  display: flex;
+  flex-direction: row;
+  Justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.btn{
+  display: flex;
+  Justify-content: center;
+  align-items: center;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  color: #9AABD8;
+  margin: 2.5px;
+  cursor: pointer;
+}
+
+.reset {
+    display: flex;
+  Justify-content: center;
+  align-items: center;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  width: 100%;
+  height: 10vh;
+  color: #9AABD8;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.save{
+  display: flex;
+  Justify-content: center;
+  align-items: center;
+  border: 2px solid #9AABD8;
+  border-radius: 5px;
+  width: 100%;
+  height: 10vh;
+  color: #9AABD8;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #9AABD8;
+}
+		</style>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="container">
+			<div class="header">
+				<h3 class="home-text">HOME</h3>
+				<h3 class="away-text">GUEST</h3>
+			</div>
+			<div class="content">
+			  <div>
+				  <div class = "score" id="home">0</div>
+			  </div>
+			  <div>
+				  <div class = "score" id="guest">0</div>
+			  </div>
+			</div>
+			<div class="buttons-container">
+			<div class="buttons align-left">
+	 <div id="Add1" onclick=addHome(1) class="btn">+1</div>
+	 <div id="Add2" onclick=addHome(2) class="btn">+2</div>
+	 <div id="Add3" onclick=addHome(3) class="btn">+3</div>
+			</div>
+			 <div class="buttons align-right">
+	<div id="Add1" onclick=addGuest(1) class="btn">+1</div>
+	<div id="Add2" onclick=addGuest(2) class="btn">+2</div>
+	<div id="Add3" onclick=addGuest(3) class="btn">+3</div>
+			 </div>
+			</div>
+   <div class="reset" id="reset" onclick=reset()>Reset Game</div>
+   <div id="save" onclick="save()" class="save">SAVE</div>
+	  <p id="save-el">Previous entries: </p>
+</div>
 	</body>
+	<script is:inline>
+		let homeEl = document.getElementById("home")
+let awayEl = document.getElementById("guest")
+let saveEl = document.getElementById("save-el")
+
+function addHome(a){
+  let total = Number(homeEl.innerText);
+      total = total + a;
+  homeEl.innerText = total;
+}
+function addGuest(b){
+  let total = Number(awayEl.innerText);
+      total = total + b;
+  awayEl.innerText = total;
+}
+
+function reset(){
+  homeEl.innerText = 0;
+  awayEl.innerText = 0;
+}
+
+function save(){
+  let homeScore = homeEl.textContent;
+  let guestScore = awayEl.textContent;
+  let previousEntries = saveEl;
+
+  let entry = "Home: " + homeScore + " - Guest: " + guestScore;
+  previousEntries.textContent += entry + ", ";
+}
+</script>
 </html>
