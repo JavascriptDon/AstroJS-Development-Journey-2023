@@ -1,6 +1,8 @@
 # Basketball-scorecard
 
-My personal AstroJS Challenge. Build a Basketball score card using HTML, CSS and Javascript.
+Build a Basketball score card using HTML, CSS and Javascript.
+
+<img width="546" alt="basketball" src="https://github.com/JavascriptDon/AstroJS-Development-Journey-2023/assets/101202952/ab8e6782-25ff-4bce-b106-7f54f89f4cdc">
 
 ## 👇 Prerequisites
 
