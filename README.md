@@ -1,5 +1,5 @@
-# Tidy Trolley
-The Ultimate Grocery Assistant [Tidy Trolley](https://tidy-trolley.netlify.app/). Powered by Firebase DB. 
+# [Tidy Trolley](https://tidy-trolley.netlify.app/)
+The Ultimate Grocery Assistant Powered by Firebase DB. 
 ## Features 
 
 📌 With this grocery assistant, you can:
