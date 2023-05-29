@@ -2,7 +2,9 @@
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <title>Add to Cart</title>
+        <meta name="theme-color" content="#EEF0F4"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Author: HR. Web App powered by Firebase DB">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
@@ -14,7 +16,7 @@
     </head>
     <body>
         <div class="container">
-            <img src="assets/cat2.png">
+            <img src="assets/cat2.png" alt="cat-logo" width="150px" height="150px">
             <input type="text" id="input-field" placeholder="Milk">
             <button id="add-button">Add to cart</button>
             <ul id="shopping-list">
@@ -24,5 +26,12 @@
             </footer>
         </div>
         <script src="index.js" type="module"></script>
+        <script>
+            if ('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('/service-worker.js')
+                .then(() => console.log('Service Worker registered successfully.'))
+                .catch((error) => console.error('Error registering Service Worker:', error));
+            }
+          </script>
     </body>
 </html>

@@ -1,7 +1,8 @@
 {
   "name": "project",
   "devDependencies": {
-    "vite": "latest"
+    "vite": "latest",
+    "vite-plugin-pwa": "^0.15.1"
   },
   "scripts": {
     "start": "vite",
