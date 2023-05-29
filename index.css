@@ -1,0 +1,162 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-size-adjust: none;
+        -webkit-text-size-adjust: none;
+  }
+
+
+html, body {
+    font-family: Josefin Sans, sans-serif;
+    text-align: center;
+    background: #1B1924;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: items;
+    margin: 0 auto;
+    max-width: 380px;
+    height: 100vh;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+font-weight: 700;
+font-size: 25px;
+line-height: 25px;
+color: #FFFFFF;
+}
+
+h2{
+padding: 20px;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+color: #FFFFFF;
+}
+
+.input-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    max-width: 317px;
+    margin: 0 auto;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+textarea{
+    background: #444059;
+    border-radius: 8px;
+    border: none;
+    resize: none;
+    
+    width: 100%;
+    
+    color: #8F8F8F;
+    text-align: center;
+    padding: 50px;
+}
+
+input{
+    background: #444059;
+    border: none;
+    border-radius: 8px;
+        
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #8F8F8F;
+    
+    width: 135px;
+    height: 40px;
+}
+
+
+button{
+    background: #28A9F1;
+    border-radius: 8px;
+    border: none;
+    
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+
+    width: 100%;
+    height: 61px;
+    
+    cursor: pointer;
+    color: #04131C;
+}
+
+button:hover {
+    background-color: whitesmoke;
+}
+
+#endorsement-list{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+
+width: 317px;
+height: 100vh;
+
+margin: 0 auto;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 15px;
+}
+
+ul li{
+    background: #FFFFFF;    
+    color: #1B1924;
+    padding: 12px 15px;
+    list-style: none;
+    text-align: left;
+}
+
+
+.card {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-header, .card-footer {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.likes-container {
+    margin-left: auto;
+}
+
