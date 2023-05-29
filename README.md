@@ -1,4 +1,5 @@
-# We are the Champions
+# [We are the Champions](https://wearethechampions.netlify.app/)
+A mobile-first web application crafted using vanilla Javascript, HTML5, CSS3, Firebase, and Vite.
 
 Quick start:
 
