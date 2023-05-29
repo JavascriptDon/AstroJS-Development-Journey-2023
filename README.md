@@ -19,4 +19,4 @@ $ npm start
 
 Head over to https://vitejs.dev/ to learn more about using vite
 
-![Kitty-Kargo](https://github.com/JavascriptDon/Tidy-Trolley/assets/101202952/2a559862-2ce4-422b-b57e-f6880a52355a)
+![Kitty-Kargo](https://github.com/JavascriptDon/Javascript-Fundamentals/assets/101202952/06ef21c5-a825-4eb0-9904-8eddddfd095b)
