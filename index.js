@@ -86,7 +86,7 @@ function updateLikes(id, item) {
 
   likeIcon.addEventListener("click", () => {
     const isLiked = !item.isLiked;
-    const updatedLikes = isLiked ? item.likes + 2 : item.likes - 1;
+    const updatedLikes = isLiked ? item.likes + 1 : item.likes - 1;
 
     update(exactLocationOfItemInDB, { isLiked, likes: updatedLikes });
   });
