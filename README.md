@@ -4,12 +4,7 @@
 - Let's bring the streaming magic to life! ✨🎥
 
 
-
-https://github.com/JavascriptDon/CodeFlix/assets/101202952/e9a08c04-0685-48d5-bf80-1c707ec57819
-
-
-
-
+https://github.com/JavascriptDon/Javascript-Fundamentals/assets/101202952/c76815c0-788c-4891-8c9e-79b5ec98ee21
 
 
 ## 👇 Prerequisites
