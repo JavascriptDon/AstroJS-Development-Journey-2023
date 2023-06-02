@@ -44,7 +44,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## 👨‍💻 Credit
 
 [Code Commerce](https://www.youtube.com/watch?v=ATz8wg6sg30)
- 
+
+## FAQ
+
+How do i install a PWA Web App?
+
+
+https://github.com/JavascriptDon/Javascript-Fundamentals/assets/101202952/af9944ff-587d-4188-9411-b4ccb7b13541
+
+
 ## 🛡️ License
  
 This project is under the MIT License (MIT). See the LICENSE for more information.
