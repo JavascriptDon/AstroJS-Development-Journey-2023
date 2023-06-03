@@ -17,7 +17,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex items-center justify-between p-4 z-[100] w-full absolute md:m-auto">
+    <div className="flex items-center justify-between p-4 z-[100] w-full absolute">
       <Link to="/">
         <div className="flex items-center">
           <img
@@ -31,7 +31,7 @@ const NavBar = () => {
         </div>
       </Link>
       {user?.email ? (
-        <div>
+        <div className="ml-10">
           <Link to="/account">
             <button className="text-white font-medium pr-4">Account</button>
           </Link>
@@ -43,7 +43,7 @@ const NavBar = () => {
           </button>
         </div>
       ) : (
-        <div>
+        <div className="ml-10">
           <Link to="/login">
             <button className="text-white font-medium pr-4">Sign In</button>
           </Link>
