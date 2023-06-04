@@ -25,21 +25,7 @@ npm -v
 
 
 ## 🛠️ Setup
-
-```
-npm install
-```
-
-### Runs the app in the development mode.
-```
-npm start
-```
-
-### Builds the app for production to the `build` folder.
-```
-npm run build
-```
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Blog Post](https://dev.to/hr21don/exploring-codeflix-a-reactjs-project-599m)
 
 ## 👨‍💻 Credit
 
