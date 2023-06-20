@@ -20,6 +20,16 @@ Head over to https://vitejs.dev/ to learn more about using vite
 - Build it from scratch. 
 - Follow the [design](https://www.figma.com/file/hE5klIn1AEQ9XWZWmurs7y/Learning-Journal%2FBlog?type=design&node-id=0-1&t=9jTBcVRdwBeOetzc-0)
 
+## What you will learn
+
+- setTimeout
+- element.style
+- forms
+- formData & .get()
+- event.prevent Default
+- CSS:row-reverse
+- toggling classes
+- 'disabled' attributes
 
 ## 🛡️ License
 
