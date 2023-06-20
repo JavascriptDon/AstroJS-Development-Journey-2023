@@ -1,21 +1,31 @@
-# co5574f02b524c92155f3dad1
+# Cookie-Consent
+
+Build a cookie consent form using HTML, CSS, and Javascript.
 
 Quick start:
 
 ```
 $ npm install
-$ npm start
+$ npm run dev
 ````
 
 Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+<img width="944" alt="code" src="https://github.com/JavascriptDon/Javascript-Fundamentals/assets/101202952/c1cc3bb6-3e01-4e21-96d7-b6ffaabdd539">
 
-Happy Coding!
+
+## 👇 Requirements
+
+- Build it from scratch. 
+- Follow the [design](https://www.figma.com/file/hE5klIn1AEQ9XWZWmurs7y/Learning-Journal%2FBlog?type=design&node-id=0-1&t=9jTBcVRdwBeOetzc-0)
+
+
+## 🛡️ License
+
+This project is under the MIT License (MIT). See the LICENSE for more information.
+
+## 👀 Want to learn more?
+
+Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
