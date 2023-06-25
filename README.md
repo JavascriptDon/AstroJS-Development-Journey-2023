@@ -1,4 +1,4 @@
-# BrandBuzz
+# [BrandBuzz](https://brandbuzz-0f2d13.netlify.app/)
 
 Build a Twitter Clone using HTML, CSS, and Javascript.
 
@@ -11,14 +11,14 @@ $ npm run dev
 
 Head over to https://vitejs.dev/ to learn more about using vite
 
+<img width="920" alt="brandbuzz" src="https://github.com/JavascriptDon/Javascript-Fundamentals/assets/101202952/d7e6c04a-29f9-4685-a9a1-ab78264069aa">
 
-<img width="944" alt="code" src="https://github.com/JavascriptDon/Javascript-Fundamentals/assets/101202952/c1cc3bb6-3e01-4e21-96d7-b6ffaabdd539">
 
+## 👇 Stretch Goals
 
-## 👇 Requirements
-
-- Build it from scratch. 
-- Follow the [design](https://www.figma.com/file/hE5klIn1AEQ9XWZWmurs7y/Learning-Journal%2FBlog?type=design&node-id=0-1&t=9jTBcVRdwBeOetzc-0)
+- Add the ability to reply to a specific tweet
+- Save tweets, likes, and retweets to local storage
+- Allow a user to delete a tweet
 
 ## What you will learn
 
