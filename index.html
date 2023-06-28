@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="A Restaurant Order Menu Scrimba Project"
+    />
+    <title>TFD</title>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+          <h1 class="main-title">Jimmy's Diner</h1>
+          <p class="main-slogan">The best burgers, pizzas, fries, chicken nuggets, and ice cream in town.</p>
+  </header>
+  <main>
+      <div id="menu-container"> 
+          <!--menu rendered via main.js--> 
+      </div>
+      <div id="order-container">
+        <!-- items rendered via main.js--> 
+        <h3>Meal Deal Discount</h3>
+        <p>Add a three items to your order and get a 5% discount!</p>
+        <span>🍕 🍔 🍺 or 🍟 🍗 🍦</span>  
+      </div>
+      <!--checkout payment modal-->
+      <div class="card-details-modal" id="card-details-modal">
+        <div class="close-modal-btn-container">
+          <button class="modal-close-btn" id="modal-close-btn">X</button>
+        </div>
+        <div>
+          <h2 class="card-details-title">Enter Card Details</h2>
+          <form id ="card-details-form">
+            <input 
+                type="text" 
+                id="fullName" 
+                name="fullName"
+                aria-label="full Name" 
+                placeholder="Enter your Name"
+                required
+            >
+            <input 
+                type="number" 
+                id="cardNumber" 
+                name="cardNumber"
+                aria-label="card number" 
+                placeholder="Enter card number"
+                required
+            >
+            <input 
+                type="number" 
+                id="cvv" 
+                name="cvv"
+                aria-label="CVV" 
+                placeholder="Enter CVV"
+                required
+            >
+            <button type="submit" id="pay-order">Pay</button>
+        </form>
+          </div>
+      </div>
+  </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
