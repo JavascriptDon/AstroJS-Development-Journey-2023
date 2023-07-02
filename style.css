@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 300px; 
+    background: linear-gradient(180deg, #ffffff 0%, #f6f7fb 100%);
+    color: #F8F8F8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 81px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 84px;
+}
+
+.icon-profile,
+.icon-chat {
+    width: 34px;
+}
+
+.card {
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin: 0 10px;
+    position: relative;
+}
+
+.dog-img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reject-btn {
+    width: 26px;
+}
+
+.accept-btn {
+    width: 30px; 
+}
+
+.btn-circle{
+    border-radius: 50%; 
+    width: 92px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 12px;
+    background: #ffffff;
+    box-shadow: 0px 10px 20px #e9e9ea;
+    border: none;
+}
+
+.accept-btn-clicked {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px 0px #CCF1E6
+}
+
+.reject-btn-clicked {
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px #E9E9EA;
+}
+
+.accept-btn-clicked:hover{
+    background-color: #DBFFF4;
+}
+
+.reject-btn-clicked:hover{
+    background: #FFE7EF;
+}
+
+.dog-info {
+  position: absolute;
+  bottom: 16px;
+  left: 12px;
+  z-index: 1;
+  padding: 10px;
+}
+
+.name-age {
+    font-size: 32px;  
+    font-weight: 600;
+    margin: 0 0 7px 0;
+    padding: 0;
+}
+
+.dog-bio {
+    color: #B7B7B7;
+    font-size: 24px; 
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.badge-img {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  z-index: 1;
+  padding: 10px;
+  width: 233px; 
+  transform: rotate(-30deg);
+  display: none;
+}
+
+.hide{
+    display: none;
+}
+
+.no-dogs {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.no-dogs h1 {
+    font-size: 10rem;
+}
+
+.no-dogs h2{
+    font-size: 3rem;
+    color: #8a8989;
+}
+
+.no-dogs p {
+    color: #8a8989;
+    font-size: 2rem;
+}

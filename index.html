@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Tindog</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+      <div class="container">
+        <header>
+            <img src="images/icon-profile.png" alt="profile" class="icon-profile"/>
+            <a href="/" aria-label="reset"><img src="images/logo.png" alt="logo" class="logo"/></a>
+            <img src="images/icon-chat.png" alt="chat" class="icon-chat"/>
+        </header>
+
+        <main>
+            <div class="profile-container">
+                <div class="card" id="card">
+                </div>
+                <img class="badge-img" id="accept-badge" src="images/badge-like.png">
+                <img class="badge-img" id="reject-badge" src="images/badge-nope.png">
+            </div>
+
+        <div class="btn-container">
+            <button id="rejectBtnEl" class="btn-circle">
+                <img src="images/icon-cross.png"  class="reject-btn"/>
+            </button>
+            <button id="acceptBtnEl" class="btn-circle">
+                <img src="images/icon-heart.png" class="accept-btn" />
+            </button>
+        </div>
+      </main>
+    </div>
+        <script src="/index.js" type="module"></script>
+    </body>
+</html>
