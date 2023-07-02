@@ -23,8 +23,12 @@ class Dog {
                 <p>Click the paw logo to try again</p>
             </div>
         `;
-        document.getElementById("btn-container").classList.add("hide");
+        document.getElementById("accept-badge").style.display = "none";
+        document.getElementById("reject-badge").style.display = "none";
+        document.getElementById("acceptBtnEl").style.display = "none";
+        document.getElementById("rejectBtnEl").style.display = "none";
     }
+    
 }
 
 export default Dog;

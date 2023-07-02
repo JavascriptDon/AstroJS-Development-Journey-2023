@@ -35,8 +35,8 @@ function selectionMade() {
             dog.hasBeenSwiped = false;
             document.getElementById("accept-badge").style.display = "none";
             document.getElementById("reject-badge").style.display = "none";
-            acceptBtnEl.classList.remove("heart-btn-clicked");
-            rejectBtnEl.classList.remove("cross-btn-clicked");
+            acceptBtnEl.classList.remove("accept-btn-clicked");
+            rejectBtnEl.classList.remove("reject-btn-clicked");
             rejectBtnEl.disabled = false
             acceptBtnEl.disabled = false
             }, 2000)
