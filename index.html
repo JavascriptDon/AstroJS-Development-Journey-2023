@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Scrimba Solo Project"
+    />
+    <title>Color Picker</title>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main class="container">
+      <div class="header">
+          <input id="color-picker" class="color-picker" type="color">
+          <select id="select-color" class="color-mode">
+            <option value="monochrome" name="monochrome">Monochrome</option>
+            <option value="monochrome-dark" name="monochrome-dark">Monochrome-dark</option>
+            <option value="monochrome-light" name="monochrome-light">Monochrome-light</option>
+            <option value="analogic" name="analogic">Analogic</option>
+            <option value="complement" name="complement">Complement</option>
+            <option value="analogic-complement" name="analogic-complement">Analogic-complement</option>
+            <option value="triad" name="triad">Triad</option>
+          </select>
+          <button id="color-btn" class="color-btn" type="submit">Get color scheme</button>
+      </div>
+      <section>
+          <div id="color-container" class="color-container">
+              <h1 class="color-container-info">Please select a color using the color picker and remember to choose your preferred pattern.</h1>
+          </div>
+      </section>
+  </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
